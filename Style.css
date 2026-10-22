@@ -1,0 +1,73 @@
+/*
+Theme Name: Custom Lightweight Starter
+Theme URI: https://github.com/shawnotega/custom-wordpress-theme-starter
+Author: Oghenetega Shawn Abiyere
+Author URI: https://github.com/shawnotega
+Description: A modern, high-performance, and lightweight custom WordPress starter theme optimized for speed and SEO.
+Version: 1.0.0
+Text Domain: custom-starter
+*/
+
+/* Base Reset & Variables */
+:root {
+    --primary-color: #2563eb;
+    --text-color: #1f2937;
+    --bg-color: #ffffff;
+    --max-width: 1200px;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    color: var(--text-color);
+    background-color: var(--bg-color);
+    line-height: 1.6;
+}
+
+.site-container {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header & Navigation */
+site-header {
+    border-bottom: 1px solid #e5e7eb;
+    padding: 20px 0;
+}
+
+.site-navigation ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.site-navigation a {
+    text-decoration: none;
+    color: var(--text-color);
+    font-weight: 500;
+}
+
+.site-navigation a:hover {
+    color: var(--primary-color);
+}
+
+/* Main Content Area */
+main {
+    padding: 40px 0;
+    min-height: 60vh;
+}
+
+/* Footer */
+site-footer {
+    border-top: 1px solid #e5e7eb;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #6b7280;
+}
